@@ -1,6 +1,7 @@
 package ModelDataClass;
 
 
+import java.util.ArrayList;
 
 public class DataCategory {
 
@@ -8,6 +9,9 @@ public class DataCategory {
 
     public DataCategory(String nameCategory){
         this.category = nameCategory;
+    }
+    public DataCategory(ArrayList<String> masdatacat){
+        this.category=masdatacat.get(0);
     }
 
 }

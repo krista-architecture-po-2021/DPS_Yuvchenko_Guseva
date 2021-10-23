@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8832504a-21bf-4139-a638-b2c4c16e5d5b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/Resources/ListCategory.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/Resources/ListCategory.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/Resources/ListFileName.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/Resources/ListFileName.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/Resources/Потоп.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/Resources/Потоп.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/Resources/Потоп.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/Resources/Потоп.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/Resources/Ту-160.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/Resources/Ту-160.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/Resources/Ужасный потоп.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/Resources/Ужасный потоп.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/Resources/Ужасный потоп.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/Resources/Ужасный потоп.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/ResourcesTest/FileNews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/ResourcesTest/FileNews.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/ResourcesTest/Ту-160.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/ResourcesTest/Ту-160.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/ResourcesTest/потоп.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/ResourcesTest/потоп.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/src/main/java/AbstractDecor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/src/main/java/AbstractDecor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/src/main/java/AllCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/src/main/java/AllCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/src/main/java/AllNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/src/main/java/AllNews.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/src/main/java/DecorAuthors.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/src/main/java/DecorAuthors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/src/main/java/DecorDataTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/src/main/java/DecorDataTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/src/main/java/DecorSedWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/src/main/java/DecorSedWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/src/main/java/FacadeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/src/main/java/FacadeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/src/main/java/IAllCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/src/main/java/IAllCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/src/main/java/IAllNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/src/main/java/IAllNews.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/src/main/java/SingletonCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/src/main/java/SingletonCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/src/test/java/ServiceOfNewsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/src/test/java/ServiceOfNewsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/target/classes/AllCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/target/classes/AllCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/target/classes/AllNews.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/target/classes/AllNews.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/target/classes/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/target/classes/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/target/classes/FacadeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/target/classes/FacadeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/target/classes/IAllCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/target/classes/IAllCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/target/classes/IAllNews.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/target/classes/IAllNews.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/target/classes/News.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/target/classes/News.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/target/classes/SingletonCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/target/classes/SingletonCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/target/classes/SingletonCategory1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/target/classes/SingletonCategory1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facad/target/test-classes/ServiceOfNewsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/target/test-classes/ServiceOfNewsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/src/main/java/ModelDataAccesObject/IModelCategoryDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/ModelDataAccesObject/IModelCategoryDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/src/main/java/ModelDataAccesObject/IModelNewsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/ModelDataAccesObject/IModelNewsDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/src/main/java/ModelDataAccesObject/ModelCategoryFileDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/ModelDataAccesObject/ModelCategoryFileDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/src/main/java/ModelDataAccesObject/ModelNewsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/ModelDataAccesObject/ModelNewsDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/src/main/java/ModelDataClass/DataCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/ModelDataClass/DataCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/src/main/java/ModelDataClass/DataNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/ModelDataClass/DataNews.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/src/main/java/ModelDataClass/NoDataFileException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/ModelDataClass/NoDataFileException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/src/main/java/ModelNews.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/src/main/java/ModelPackage/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/ModelPackage/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/src/main/java/ModelPackage/ModelFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/ModelPackage/ModelFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/src/main/java/ModelPackage/ModelJson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/src/main/java/Providers/IProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/Providers/IProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/src/main/java/Providers/ProviderFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/Providers/ProviderFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/target/classes/ModelDataClass/DataNews.class" beforeDir="false" afterPath="$PROJECT_DIR$/Model/target/classes/ModelDataClass/DataNews.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/target/classes/ModelDataClass/NoNewsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/target/classes/ModelNews.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1zs8XRUfoDcWsMCnFtPae1hUuCU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="JUnit.ServiceOfNewsTest">
+    <configuration name="ServiceOfNewsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Facad" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ServiceOfNewsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceOfNewsTest.NoOldNewsListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Facad" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ServiceOfNewsTest" />
+      <option name="METHOD_NAME" value="NoOldNewsListTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceOfNewsTest.NoOldNewsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Facad" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ServiceOfNewsTest" />
+      <option name="METHOD_NAME" value="NoOldNewsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceOfNewsTest.NoWordsKovidListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Facad" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ServiceOfNewsTest" />
+      <option name="METHOD_NAME" value="NoWordsKovidListTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceOfNewsTest.NoWordsKovidTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Facad" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ServiceOfNewsTest" />
+      <option name="METHOD_NAME" value="NoWordsKovidTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ServiceOfNewsTest" />
+        <item itemvalue="JUnit.ServiceOfNewsTest.NoWordsKovidListTest" />
+        <item itemvalue="JUnit.ServiceOfNewsTest.NoWordsKovidTest" />
+        <item itemvalue="JUnit.ServiceOfNewsTest.NoOldNewsListTest" />
+        <item itemvalue="JUnit.ServiceOfNewsTest.NoOldNewsTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8832504a-21bf-4139-a638-b2c4c16e5d5b" name="Default Changelist" comment="" />
+      <created>1634925474123</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634925474123</updated>
+      <workItem from="1634925499566" duration="17514000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1634938483680">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1634938483680" />
+    <state x="355" y="389" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1634931712850">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="355" y="389" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1366.728@0.0.1366.728" timestamp="1634931712850" />
+    <state x="35" y="62" key="#xdebugger.evaluate" timestamp="1634971224032">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="35" y="62" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1634971224032" />
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1634972854084">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1634972854084" />
+    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1634972854084">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1634972854084" />
+    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1634972854083">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1634972854083" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1634972854084">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1634972854084" />
+    <state width="1322" height="246" key="GridCell.Tab.1.bottom" timestamp="1634972749964">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="246" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1634972749964" />
+    <state width="1322" height="246" key="GridCell.Tab.1.center" timestamp="1634972749964">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="246" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1634972749964" />
+    <state width="1322" height="246" key="GridCell.Tab.1.left" timestamp="1634972749964">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="246" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1634972749964" />
+    <state width="1322" height="246" key="GridCell.Tab.1.right" timestamp="1634972749964">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="246" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1634972749964" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1634931328442">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1634931328442" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Facad/src/main/java/DecorDataTime.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LabDPS3$ServiceOfNewsTest_NoOldNewsTest.ic" NAME="ServiceOfNewsTest.NoOldNewsTest Coverage Results" MODIFIED="1634970703562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

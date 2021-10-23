@@ -1,67 +1,69 @@
-import ModelDataClass.NoNewsException;
+import ModelDataClass.DataNews;
 
 import java.util.List;
 
 
 public class FacadeService {
-    private IAllNews serviceNews = new AllNews();
-    private IAllCategory serviceCategory = new AllCategory();
+    private IAllNews serviceNews;
+    private IAllCategory serviceCategory;
+    private String modelservise;
 
+    /**
+     * если код <= 1 - только от нужных авторов
+     * если код <= 2 - только новые
+     * если код <= 3 - только позитивные
+     * @param modelservise
+     * @param kod
+     */
+    public FacadeService(String modelservise,int kod) {
+        this.modelservise = modelservise;
+          serviceNews = new AllNews(modelservise);
 
-    public List<News> getServiceNews() {
+          if(kod>0) serviceNews = new DecorAuthors(serviceNews);
+          if(kod>1) serviceNews = new DecorDataTime(serviceNews);
+          if(kod>2) serviceNews = new DecorSedWords(serviceNews);
+
+          serviceCategory = new AllCategory(modelservise);
+    }
+
+    public List<News> getListNews() {
         return serviceNews.getList();
     }
 
     public News getNews(String name) {
-        try {
-            return serviceNews.getNews(name);
-        } catch (NoNewsException e) {
-            return null;
-        }
+        return serviceNews.getNews(name);
+
     }
 
     public void addNews(News news) {
         serviceNews.add(news);
     }
 
-    public void updateNewsName(String name, String newname) {
-        ModelNews.updateNameOfNews(name,newname);
-    }
-
-    public void updateNewsContent(String name, String newcontent) {
-        ModelNews.updateContentOfNews(name,newcontent);
+    public void updateNews(String oldName, News news) {
+        serviceNews.updateNews(oldName, news);
     }
 
     public void deleteNews(String name) {
         serviceNews.delete(name);
     }
 
-    public void deleteNews(News news) {
-        serviceNews.delete(news);
-    }
-
-
     public List<String> getServiceCategory() {
         return serviceCategory.getList();
     }
 
+    public Category getCategory(String name) {
+        return serviceCategory.getCategory(name);
+    }
+
     public void addListCategory(String name) {
-        if (!serviceCategory.getList().contains(name)) {
-            serviceCategory.add(name);
-        }
+        serviceCategory.addCategory(name);
     }
 
     public void updateCategory(String name, String newName) {
-        serviceCategory.getList().remove(name);
-        serviceCategory.getList().add(name);
+        serviceCategory.updateNameCategory(name, newName);
     }
 
-    public void deleteCategory(String name){
-        for (News news : serviceNews.getList()) {
-            if (news.getCategory().equals(name)) {
-                news.setCategory("\n");
-            }
-        }
-        serviceCategory.getList().remove(name);
+    public void deleteCategory(String name) {
+        serviceCategory.deleteCategory(name);
     }
 }

@@ -1,19 +1,13 @@
 package ModelPackage;
 
-import ModelDataAccesObject.DataCategoryDAO;
-import ModelDataAccesObject.DataNewsDAO;
-import ModelDataClass.DataNews;
-import ModelDataClass.NoNewsException;
-import org.springframework.stereotype.Component;
-
-import java.util.ArrayList;
-import java.util.HashSet;
+import ModelDataAccesObject.IModelCategoryDAO;
+import ModelDataAccesObject.IModelNewsDAO;
 
 public abstract class Factory {
 
     public static Factory getModel(String nameModel) {
         if ("ModelFile".equals(nameModel)) return new ModelFile();
-        return new ModelJson();
+        return new ModelMas();
     }
 
     public abstract IModelCategoryDAO getModelCategoryDAO();

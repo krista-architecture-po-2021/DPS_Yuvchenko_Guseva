@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: ServiceOfNewsTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.064 sec <<< FAILURE!
+ServiceOfNewsTest.testDeleteNews()  Time elapsed: 0.058 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "FacadeService.getNews(String)" because "this.serviceOfNews" is null
+	at ServiceOfNewsTest.testDeleteNews(ServiceOfNewsTest.java:90)
+

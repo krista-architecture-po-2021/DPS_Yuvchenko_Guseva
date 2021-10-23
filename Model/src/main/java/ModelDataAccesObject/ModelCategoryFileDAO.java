@@ -1,30 +1,39 @@
-package ModelPackage;
+package ModelDataAccesObject;
 
-import ModelDataAccesObject.DataCategoryDAO;
+
 import ModelDataClass.DataCategory;
+import ModelDataClass.NoDataFileException;
+import Providers.IProvider;
 
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ModelCategoryFileDAO implements IModelCategoryDAO{
+    private IProvider provider;
+
+    public ModelCategoryFileDAO(IProvider provider){
+        this.provider = provider;
+    }
 
     /**
      * Возвращает лист категорий
      * @return
      */
     public ArrayList<DataCategory> getListCategory() {
-        ArrayList<DataCategory> datacat = new ArrayList<>();
-        try (Scanner scan = new Scanner(new FileReader("Resources/ListCategory.txt"))) {
-            for (int i = 0; scan.hasNext(); i++) {
-                String str = scan.nextLine();
-                datacat.add(new DataCategory(str));
-            }
-        } catch (IOException e) {
+        try {
+            return provider.getList("CATEGORY");
+        } catch (NoDataFileException e) {
             e.printStackTrace();
         }
-        return datacat;
+        return null;
+    }
+
+    @Override
+    public void addCategory(DataCategory dataCategory) {
+        provider.save("CATEGORY "+dataCategory.category,dataCategory);
     }
 
 }

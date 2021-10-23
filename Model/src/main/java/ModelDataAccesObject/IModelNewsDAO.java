@@ -1,13 +1,13 @@
-package ModelPackage;
+package ModelDataAccesObject;
 
-import ModelDataAccesObject.DataNewsDAO;
+
 import ModelDataClass.DataNews;
-import ModelDataClass.NoNewsException;
+import ModelDataClass.NoDataFileException;
 
 import java.util.ArrayList;
 
 public interface IModelNewsDAO {
-    public DataNews getDataNews(String filename) throws NoNewsException;
+    public DataNews getDataNews(String filename) throws NoDataFileException;
 
     public ArrayList<DataNews> getListNews();
 
@@ -15,7 +15,7 @@ public interface IModelNewsDAO {
      * сохраняет одну новость
      * @param dataNews
      */
-    public void saveNewsToFiles(DataNews dataNews);
+    public void saveNews(DataNews dataNews);
 
     /**
      * удаляет файлы для формирования новости
@@ -23,7 +23,5 @@ public interface IModelNewsDAO {
      */
     public void deleteDataNews(String name);
 
-    public void updateNameOfNews(String name, String newName);
-
-    public void updateContentOfNews(String name, String newContent);
+    public void updateNews(String oldName, DataNews dataNews);
 }
