@@ -1,8 +1,5 @@
-package ModelPackage;
+package ModelDataAccesObject;
 
-import ModelDataAccesObject.DataCategoryDAO;
-import ModelDataAccesObject.DataNewsDAO;
-import ModelDataClass.DataCategory;
 import ModelDataClass.DataNews;
 import ModelDataClass.NoNewsException;
 import org.springframework.stereotype.Component;
