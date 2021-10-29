@@ -1,6 +1,7 @@
 import ModelDataClass.DataCategory;
 import ModelPackage.Factory;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -68,7 +69,7 @@ public class AllCategory implements IAllCategory {
     }
 }
 
-class Category {
+class Category implements Serializable {
     private String nameCategory;
 
     public Category(String nameCategory) {

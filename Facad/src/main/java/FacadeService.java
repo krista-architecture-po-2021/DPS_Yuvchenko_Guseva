@@ -1,5 +1,3 @@
-import ModelDataClass.DataNews;
-
 import java.util.List;
 
 
@@ -9,19 +7,19 @@ public class FacadeService {
     private String modelservise;
 
     /**
-     * если код <= 1 - только от нужных авторов
-     * если код <= 2 - только новые
-     * если код <= 3 - только позитивные
-     * @param modelservise
-     * @param kod
+     * в массиве передаётся 3 элемента
+     * 0 элемент - вкл фильтрацию по авторам
+     * 1 элемент - вкл фильтрацию по актуальности (времени)
+     * 2 элемент - вкл фильтр плохих снов
+     * @param io
      */
-    public FacadeService(String modelservise,int kod) {
+    public FacadeService(IOtoFacad io) {
         this.modelservise = modelservise;
           serviceNews = new AllNews(modelservise);
 
-          if(kod>0) serviceNews = new DecorAuthors(serviceNews);
-          if(kod>1) serviceNews = new DecorDataTime(serviceNews);
-          if(kod>2) serviceNews = new DecorSedWords(serviceNews);
+          if(io.flags[0]) serviceNews = new DecorAuthors(serviceNews);
+          if(io.flags[1]) serviceNews = new DecorDataTime(serviceNews);
+          if(io.flags[2]) serviceNews = new DecorSadWords(serviceNews);
 
           serviceCategory = new AllCategory(modelservise);
     }

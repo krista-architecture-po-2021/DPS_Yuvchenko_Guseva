@@ -42,7 +42,6 @@ public class ProviderMas implements IProvider{
             } else for (int i = 0; i < dataCategoryArrayList.size(); i++) {
                 dataCategoryArrayList.add((DataCategory) dO);
             }
-            ;
         }
     }
 

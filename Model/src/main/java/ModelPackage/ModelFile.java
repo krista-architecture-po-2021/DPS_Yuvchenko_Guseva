@@ -6,6 +6,7 @@ import ModelDataAccesObject.ModelCategoryFileDAO;
 import ModelDataAccesObject.ModelNewsDAO;
 import Providers.IProvider;
 import Providers.ProviderFiles;
+import Providers.ProviderMas;
 
 public class ModelFile extends Factory{
     IProvider provider;

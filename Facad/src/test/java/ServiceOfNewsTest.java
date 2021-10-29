@@ -14,7 +14,9 @@ public class ServiceOfNewsTest {
     @BeforeEach
     public void setUp() {
         int kod = 1;
-        serviceOfNewsFile = new FacadeService("ModelFile",kod);
+        boolean[] flags = {true,false,false};
+        IOtoFacad io = new IOtoFacad("ModelFile",flags);
+        serviceOfNewsFile = new FacadeService(io);
         News news = null;
         try {
             news = new News("Потоп","Ливневые дожди залили весь юг России", ImageIO.read(new File("ResourcesTest/потоп.jpg")), "Ерунда","Журнал: За рулём", "15,05,2020");
@@ -25,7 +27,7 @@ public class ServiceOfNewsTest {
         serviceOfNewsFile.addListCategory("Ерунда");
 
 
-        serviceOfNewsMas = new FacadeService("ModelFile",kod);
+        serviceOfNewsMas = new FacadeService(io);
         serviceOfNewsMas.addNews(news);
 
 
@@ -181,7 +183,9 @@ public class ServiceOfNewsTest {
 
     @Test
     public void NoOldNewsTest(){
-        serviceOfNewsFile = new FacadeService("ModelFile",2);
+        boolean[] flags = {true,true,false};
+        IOtoFacad io = new IOtoFacad("ModelFile",flags);
+        serviceOfNewsFile = new FacadeService(io);
         News news = null;
         try {
             news = new News("Союз_МС-18","В этом году готовится к старту очередной союз <МС-18>.", ImageIO.read(new File("ResourcesTest/союз_мс-18.jpg")), "Важное","Жуков М.А.", "26,10,2019");
@@ -194,7 +198,9 @@ public class ServiceOfNewsTest {
 
     @Test
     public void NoOldNewsListTest(){
-        serviceOfNewsFile = new FacadeService("ModelFile",2);
+        boolean[] flags = {true,true,false};
+        IOtoFacad io = new IOtoFacad("ModelFile",flags);
+        serviceOfNewsFile = new FacadeService(io);
         News news = null;
         try {
             news = new News("Союз_МС-18","В этом году готовится к старту очередной союз <МС-18>.", ImageIO.read(new File("ResourcesTest/союз_мс-18.jpg")), "Важное","Жуков М.А.", "26,10,2019");
@@ -208,7 +214,9 @@ public class ServiceOfNewsTest {
 
     @Test
     public void NoWordsKovidTest(){
-        serviceOfNewsFile = new FacadeService("ModelFile",3);
+        boolean[] flags = {true,true,true};
+        IOtoFacad io = new IOtoFacad("ModelFile",flags);
+        serviceOfNewsFile = new FacadeService(io);
         News news = null;
         try {
             news = new News("Снова?","В очередной раз студентов хотят отправить на дистант из-за распространения коронавируса", ImageIO.read(new File("ResourcesTest/kovid19.jpg")), "Важное","Жуков М.А.", "22,10,2021");
@@ -221,7 +229,9 @@ public class ServiceOfNewsTest {
 
     @Test
     public void NoWordsKovidListTest(){
-        serviceOfNewsFile = new FacadeService("ModelFile",3);
+        boolean[] flags = {true,true,true};
+        IOtoFacad io = new IOtoFacad("ModelFile",flags);
+        serviceOfNewsFile = new FacadeService(io);
         News news = null;
         try {
             news = new News("Снова?","В очередной раз студентов хотят отправить на дистант из-за распространения коронавируса", ImageIO.read(new File("ResourcesTest/kovid19.jpg")), "Важное","Жуков М.А.", "22,10,2021");

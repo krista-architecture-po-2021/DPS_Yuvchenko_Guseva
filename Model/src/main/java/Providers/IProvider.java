@@ -25,9 +25,13 @@ public interface IProvider {
 //    public void addCategory(String nameCategory);
 
     public <T> ArrayList<T> getList(String type) throws NoDataFileException;
+
     public <T> T getDO(String entityName) throws NoDataFileException;
+
     public <T> void save(String entityName, T dO);
+
     public boolean check(String type, String name);
+
     public <T> void update_delite(String entityName, T dO);
 
 }

@@ -6,6 +6,7 @@ import javax.imageio.ImageIO;
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -60,7 +61,7 @@ public class AllNews implements IAllNews {
 }
 
 
-class News {
+class News implements Serializable {
     String name;
     String content;
     Image image;
@@ -75,6 +76,10 @@ class News {
         this.category = category;
         this.author = author;
         this.datatime = data;
+    }
+
+    public void setImage(Image image) {
+        this.image = image;
     }
 
     public void setAuthor(String author) {

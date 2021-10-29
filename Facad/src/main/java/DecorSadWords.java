@@ -1,9 +1,9 @@
 import java.util.HashSet;
 import java.util.List;
 
-public class DecorSedWords extends AbstractDecor{
+public class DecorSadWords extends AbstractDecor{
     HashSet<String> badWords;
-    public DecorSedWords(IAllNews iAllNews) {
+    public DecorSadWords(IAllNews iAllNews) {
         super(iAllNews);
         badWords = new HashSet<>();
         badWords.add("коронавирус");
@@ -11,7 +11,7 @@ public class DecorSedWords extends AbstractDecor{
         badWords.add("коронавирусы");
         badWords.add("коронавирусов");
         badWords.add("ковид");
-        badWords.add("SARS-KOV-19");
+        badWords.add("SARS-CoV-19");
     }
 
     private boolean checkKovid(String data){

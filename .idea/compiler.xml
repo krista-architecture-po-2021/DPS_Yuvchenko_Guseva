@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Model" />
+        <module name="View" />
         <module name="Facad" />
       </profile>
     </annotationProcessing>
@@ -14,6 +15,7 @@
       <module name="Facad" target="8" />
       <module name="LabDPS3" target="8" />
       <module name="Model" target="8" />
+      <module name="View" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -9,7 +9,7 @@ public class DecorDataTime extends AbstractDecor{
     public News getNews(String name) {
         News news = super.getNews(name);
         if(news==null) return null;
-        String[] mastime = news.getDatatime().split(",");//по "." ну ну хочет, почему ?
+        String[] mastime = news.getDatatime().split(",");//по "." ну не хочет, почему ?
         if(Integer.parseInt(mastime[2])<2021) return null;
         else return news;
     }

@@ -20,7 +20,7 @@ public class ProviderFiles implements IProvider {
         int k = ("NEWS".equals(type.toUpperCase(Locale.ROOT))) ? 5 : 0;
         String filename = (k == 5) ? "Resources/FileNews.txt" : "Resources/ListCategory.txt";
         ArrayList<T> arrayList = new ArrayList<>();
-        ArrayList<String> masdataobj = new ArrayList<>();
+        ArrayList<String> masdataobj;
         try (Scanner scan = new Scanner(new FileReader(filename))) {
             for (int i = 0; scan.hasNext(); i++) {
                 String str = scan.nextLine();
@@ -167,6 +167,7 @@ public class ProviderFiles implements IProvider {
                             } else {
                                 DataCategory dataCategory = (DataCategory) dO;
                                 pw.write(dataCategory.category);
+                                pw.write(System.lineSeparator());
                             }
                             for(int i1=0;i1<k-1;i1++)scan.nextLine();
                         }else for(int i1=0;i1<k-1;i1++)scan.nextLine();

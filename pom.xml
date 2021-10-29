@@ -11,6 +11,7 @@
     <modules>
         <module>Facad</module>
         <module>Model</module>
+        <module>View</module>
     </modules>
 
     <properties>
