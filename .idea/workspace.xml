@@ -14,48 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8832504a-21bf-4139-a638-b2c4c16e5d5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facad/src/main/java/IOtoFacad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/View.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/src/main/java/API_1_Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/src/main/java/API_2_Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/src/main/java/API_3_Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/src/main/java/Answer_Rest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facad/Resources/FileNews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/Resources/FileNews.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facad/Resources/FileNewsCopy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/Resources/FileNewsCopy.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facad/src/main/java/AllCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/src/main/java/AllCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facad/src/main/java/AllNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/src/main/java/AllNews.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facad/src/main/java/DecorDataTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/src/main/java/DecorDataTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facad/src/main/java/DecorSedWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/src/main/java/DecorSadWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facad/src/main/java/FacadeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/src/main/java/FacadeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facad/src/test/java/ServiceOfNewsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/src/test/java/ServiceOfNewsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facad/target/classes/AllCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/target/classes/AllCategory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facad/target/classes/AllNews.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/target/classes/AllNews.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facad/target/classes/DecorAuthors.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/target/classes/DecorAuthors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facad/target/classes/DecorDataTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/target/classes/DecorDataTime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facad/target/classes/DecorSedWords.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facad/target/classes/FacadeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/target/classes/FacadeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facad/target/classes/META-INF/Facad.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facad/target/classes/News.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/target/classes/News.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facad/target/test-classes/ServiceOfNewsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facad/target/test-classes/ServiceOfNewsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/src/main/java/ModelPackage/ModelFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/ModelPackage/ModelFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/src/main/java/Providers/IProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/Providers/IProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/src/main/java/Providers/ProviderFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/Providers/ProviderFiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/src/main/java/Providers/ProviderMas.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/Providers/ProviderMas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/target/classes/META-INF/Model.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/target/classes/ModelDataAccesObject/ModelCategoryFileDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Model/target/classes/ModelDataAccesObject/ModelCategoryFileDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/target/classes/ModelDataAccesObject/ModelNewsDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Model/target/classes/ModelDataAccesObject/ModelNewsDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/target/classes/ModelDataClass/DataNews.class" beforeDir="false" afterPath="$PROJECT_DIR$/Model/target/classes/ModelDataClass/DataNews.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/target/classes/ModelPackage/ModelFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/Model/target/classes/ModelPackage/ModelFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/target/classes/Providers/ProviderFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/Model/target/classes/Providers/ProviderFiles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/target/classes/Providers/ProviderMas.class" beforeDir="false" afterPath="$PROJECT_DIR$/Model/target/classes/Providers/ProviderMas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
