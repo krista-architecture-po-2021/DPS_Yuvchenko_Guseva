@@ -17,6 +17,7 @@ public class Main {
             e.printStackTrace();
         }
         API_2_Author.addNews(news);
+        API_1_Admin.addCategory("НЕВОРОЯТНОЕ");
         System.out.println(API_3_Reader.getNews("Потоп"));
 
     }
